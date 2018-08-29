@@ -1,0 +1,22 @@
+cd -> Change Directory
+
+ls -> list screen
+
+mkdir -> Make Directory
+
+touch -> create a file
+
+code -> Opens VsCode
+
+. -> this current folder
+.. -> back a level
+
+mv -> move -> rename and/or move
+cp -> copy -> copy a file
+rm -> remove -> permanently deletes a file
+rmdir -> remove directory -> empty directories
+git init -> initialize git repo
+git status -> show status of files
+git log -> show commits
+git add -> add file to stage
+git commit -m "" -> commit changes

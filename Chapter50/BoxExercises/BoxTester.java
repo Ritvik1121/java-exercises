@@ -9,12 +9,12 @@ public class BoxTester{
     //System.out.println( "Area: "  + box.area() + " volume: " + box.volume() );
     //System.out.println( "topArea: "  + box.topArea() );
 
-    Box bigBox = new Box(oldBox.biggerBox(oldBox));
-    System.out.println( "Area: "  + bigBox.area() + " volume: " + bigBox.volume() );
-    System.out.println( "length: " + bigBox.getLength() + " height: " + bigBox.getHeight() + " width:  " + bigBox.getWidth());
+    //Box bigBox = new Box(oldBox.biggerBox(oldBox));
+    //System.out.println( "Area: "  + bigBox.area() + " volume: " + bigBox.volume() );
+    //System.out.println( "length: " + bigBox.getLength() + " height: " + bigBox.getHeight() + " width:  " + bigBox.getWidth());
 
-    //Box outsideBox = new Box(4.0, 4.0, 4.0);
-    //Box insideBox = new Box(3.0, 3.0, 3.0);
-    //System.out.println(insideBox.nests(outsideBox));
+    Box outsideBox = new Box(4.0, 4.0, 4.0);
+
+    System.out.println(insideBox.nests(outsideBox));
   }
 }

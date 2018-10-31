@@ -54,11 +54,11 @@ public class Box{
     return this.height * this.length;
   }
 
-  //public boolean nests(Box outsideBox, Box insideBox){
-    //if (outsideBox.getHeight() > insideBox.getHeight() && outsideBox.getWidth() > insideBox.getWidth() && outsideBox.getLength() > insideBox.getLength()){
-      //return true;
-    //} else{
-    //return false;
-    //}
+  public boolean nests(Box outsideBox){
+    if (outsideBox.getHeight() > this.height && outsideBox.getWidth() > this.width && outsideBox.getLength() > this.length){
+      return true;
+    } else{
+    return false;
+    }
   }
 }
